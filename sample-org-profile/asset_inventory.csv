@@ -1,0 +1,31 @@
+asset_id,name,type,owner,location,criticality(1-5),data_sensitivity(1-5),internet_exposed(Y/N),notes
+A-001,HQ-AD-01,Server (Domain Controller),Infrastructure Team,HQ Server Room,5,4,N,Primary AD DS and DNS
+A-002,HQ-FILE-01,Server (File Server),Infrastructure Team,HQ Server Room,4,4,N,Department shared files
+A-003,HQ-ERP-APP-01,Server (Application),Business Apps Team,HQ Server Room,5,4,N,Inventory and order orchestration app
+A-004,HQ-SQL-01,Server (Database),Business Apps Team,HQ Server Room,5,5,N,Order and customer transaction database
+A-005,WH-PRINT-01,Server (Print),IT Operations,Warehouse Site,2,2,N,Warehouse label printing services
+A-006,VM-CLUSTER-01,Hypervisor Host,Infrastructure Team,HQ Server Room,5,3,N,On-prem virtualization node 1
+A-007,VM-CLUSTER-02,Hypervisor Host,Infrastructure Team,HQ Server Room,5,3,N,On-prem virtualization node 2
+A-008,NB-FW-EDGE-01,Firewall,Network Team,HQ Edge Rack,5,3,Y,Basic perimeter firewall appliance
+A-009,NB-SW-CORE-01,Core Switch,Network Team,HQ Comms Room,4,2,N,Core switching for HQ
+A-010,NB-VPN-01,VPN Gateway,Network Team,HQ Edge Rack,4,3,Y,Remote staff VPN endpoint
+A-011,AZ-PORTAL-WEB-01,Azure App Service,Cloud Team,Azure UK South,5,3,Y,Public customer portal front-end
+A-012,AZ-PORTAL-API-01,Azure API App,Cloud Team,Azure UK South,5,4,Y,Portal backend API services
+A-013,AZ-SQL-PORTAL-01,Azure SQL Database,Cloud Team,Azure UK South,5,5,N,Portal transactional data
+A-014,AZ-STORAGE-BLOB-01,Azure Storage Account,Cloud Team,Azure UK South,4,4,N,Document uploads and exports
+A-015,AZ-WAF-01,Azure WAF,Cloud Team,Azure UK South,4,2,Y,WAF policy for portal endpoints
+A-016,M365-TENANT-01,SaaS Tenant,IT Leadership,Microsoft 365 Cloud,5,5,Y,Email collaboration and identity-integrated services
+A-017,ENTRA-ID-01,Identity Platform,Security Team,Azure AD Cloud,5,5,Y,Primary identity provider
+A-018,EDR-CONSOLE-01,Security Tool,Security Team,Vendor Cloud,4,4,Y,Endpoint detection and response console
+A-019,SIEM-WORKSPACE-01,Security Tool,Security Team,Azure UK South,4,4,N,Centralized log analytics workspace
+A-020,LAPTOP-FLEET-01,Endpoint Fleet,IT Operations,HQ + Remote,4,3,N,Approx 120 corporate laptops
+A-021,DESKTOP-WH-01,Endpoint Fleet,IT Operations,Warehouse Site,3,2,N,Shared warehouse desktops
+A-022,MOBILE-MGMT-01,MDM Platform,IT Operations,Cloud SaaS,3,3,Y,Windows device policy management
+A-023,BACKUP-SERVER-01,Backup System,Infrastructure Team,HQ Server Room,5,5,N,Backup orchestration and catalog
+A-024,OFFSITE-BACKUP-VAULT,Backup Repository,Infrastructure Team,Cloud Repository,5,5,N,Immutable backup copy target
+A-025,HR-DATASET-01,Sensitive Dataset,HR Team,HQ-FILE-01,4,5,N,Employee records and payroll documents
+A-026,CUSTOMER-CONTRACTS-01,Sensitive Dataset,Commercial Team,HQ-FILE-01,4,5,N,Customer contracts and pricing terms
+A-027,LOGISTICS-TRACKING-DATA-01,Sensitive Dataset,Operations Team,HQ-SQL-01,5,4,N,Shipment status and dispatch data
+A-028,TICKETING-SYSTEM-01,SaaS Application,Service Desk,Cloud SaaS,3,3,Y,IT service management and incident tickets
+A-029,EMAIL-SECURE-GATEWAY-01,Security Tool,Security Team,Cloud Service,4,4,Y,Inbound email filtering and anti-phishing
+A-030,REMOTE-SUPPORT-TOOL-01,Remote Admin Tool,IT Operations,Cloud Service,4,4,Y,Remote support utility for endpoints

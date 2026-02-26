@@ -1,0 +1,32 @@
+outcome_id,function,outcome_title,outcome_description,implementation_status,maturity,evidence_required,current_evidence,risk_if_gap,priority,quick_win,notes
+GV-1,Govern,Cybersecurity governance charter,Board-approved security charter and oversight forum,Partial,2,Approved charter and steering committee minutes,Yes,High,P2,No,Charter exists but board reporting is irregular
+GV-2,Govern,Policy framework lifecycle,Policy set reviewed and approved annually,Partial,2,Policy register with review dates,Yes,Med,P3,Yes,Several policies overdue for review
+GV-3,Govern,Roles and responsibilities,Documented RACI for cyber responsibilities,Partial,2,RACI matrix and job descriptions,No,Med,P3,Yes,Responsibilities known informally but not centrally documented
+GV-4,Govern,Risk management process,Consistent cyber risk process with treatment tracking,Partial,2,Risk methodology and risk committee records,Yes,High,P2,No,Risk register exists but scoring is inconsistent
+GV-5,Govern,Third-party risk governance,Supplier due diligence and security clauses,Not Implemented,1,Vendor assessment template and contract clauses,No,High,P1,No,No formal third-party review workflow
+ID-1,Identify,Asset inventory completeness,Complete inventory across endpoint server cloud and SaaS,Partial,2,Asset inventory export and ownership list,Yes,High,P1,Yes,Cloud and SaaS inventory not fully reconciled
+ID-2,Identify,Business criticality and data classification,Assets and data classified by impact and sensitivity,Partial,2,Data classification policy and labels,Yes,High,P2,Yes,Classification labels not consistently applied
+ID-3,Identify,Network and data flow visibility,Trust boundaries and key flows documented,Partial,2,Data flow diagrams and network maps,Yes,Med,P3,Yes,Diagrams exist for primary services only
+ID-4,Identify,Vulnerability management process,Routine scanning triage and patch SLAs,Partial,2,Scan reports and SLA dashboard,Yes,High,P1,Yes,Server patching cadence uneven across teams
+ID-5,Identify,Threat-informed risk assessment,Threat scenarios integrated into risk reviews,Not Implemented,1,Threat model and review minutes,No,High,P2,No,Threat model created ad hoc not periodic
+PR-1,Protect,Identity and access management baseline,Least privilege JML and access recertification,Partial,2,Access review records and IAM standard,Yes,High,P1,No,Privileged access recertification incomplete
+PR-2,Protect,MFA coverage,MFA on admin remote access and critical SaaS,Partial,2,MFA policy and enforcement screenshots,Yes,High,P1,Yes,MFA complete for admins but partial for users
+PR-3,Protect,Endpoint hardening and EDR,Managed baseline and EDR coverage,Partial,2,EDR coverage reports and baseline policy,Yes,High,P1,Yes,EDR missing on some warehouse shared devices
+PR-4,Protect,Patch and configuration management,Critical patching and secure baselines maintained,Partial,2,Patch compliance reports and hardening baseline,Yes,High,P1,No,Critical patch SLA breached on legacy VMs
+PR-5,Protect,Data protection controls,Encryption retention DLP and backup protections,Partial,2,DLP policies and encryption settings,Yes,High,P2,No,DLP in monitor mode not enforce mode
+PR-6,Protect,Security awareness program,Annual training and phishing simulations,Implemented,3,Training completion and simulation metrics,Yes,Med,P4,Yes,Program is mature for current org size
+PR-7,Protect,Secure software and cloud configuration,Secure SDLC and cloud baseline for portal,Partial,2,Change tickets and cloud posture report,No,High,P1,No,No formal threat modeling in release cycle
+DE-1,Detect,Centralized logging,Log aggregation and retention across critical systems,Partial,2,SIEM ingest dashboard and retention policy,Yes,High,P1,Yes,Firewall and identity logs present server logs partial
+DE-2,Detect,Detection use cases,Documented and tuned detections for common threats,Not Implemented,1,Use case catalog and tuning records,No,High,P1,No,Alerting heavily dependent on default vendor rules
+DE-3,Detect,Monitoring coverage for critical assets,Coverage for portal identity endpoints and admin actions,Partial,2,Coverage map and gap tracker,No,High,P1,No,Portal app logs not fully normalized in SIEM
+DE-4,Detect,Alert triage workflow,Severity model and triage SLAs defined,Partial,2,SOC runbook and ticket samples,Yes,Med,P2,Yes,Workflow documented but out-of-hours handling weak
+DE-5,Detect,Anomaly detection and baselining,Behavior baselines for users and systems,Not Implemented,0,Baselining dashboard and review cadence,No,Med,P3,No,No baseline model for service accounts
+RS-1,Respond,Incident response plan,IR policy plan and escalation matrix,Partial,2,IR plan and contact roster,Yes,High,P2,Yes,Plan exists but not tested recently
+RS-2,Respond,Incident classification and playbooks,Playbooks for top incident types,Partial,2,Playbook set and incident tickets,Yes,High,P1,No,Playbooks exist for phishing only
+RS-3,Respond,Internal and external communications,Comms templates and regulatory escalation paths,Not Implemented,1,Comms plan and approved templates,No,High,P2,Yes,Legal and customer comms not pre-approved
+RS-4,Respond,Forensic readiness,Log retention and chain-of-custody process,Partial,2,Forensic SOP and retention settings,No,Med,P2,No,Evidence handling varies by responder
+RS-5,Respond,Lessons learned process,Formal PIR and action tracking,Not Implemented,1,PIR template and action register,No,Med,P3,Yes,Actions are tracked informally in email
+RC-1,Recover,Backup and restore testing,Routine backup monitoring and restore drills,Partial,2,Backup reports and restore test records,Yes,High,P1,Yes,Core systems tested quarterly but endpoint restore rare
+RC-2,Recover,BCDR integration,Cyber scenarios integrated into BC and DR exercises,Not Implemented,1,BCDR exercise records with cyber scenarios,No,High,P2,No,Operations exercises exclude cyber failure modes
+RC-3,Recover,Recovery communications and restoration priorities,Service restoration tiers and stakeholder comms defined,Partial,2,Recovery priority matrix and contact templates,No,Med,P3,Yes,Portal priority documented but warehouse systems omitted
+RC-4,Recover,Improvement tracking after disruption,Post-disruption actions owned and tracked to closure,Not Implemented,1,Recovery action tracker and governance review,No,Med,P3,Yes,No formal closure criteria for recovery actions

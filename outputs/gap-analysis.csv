@@ -1,0 +1,32 @@
+outcome_id,function,status,maturity,risk_if_gap,recommended_action,priority,effort(S/M/L),dependencies,gap_risk_score,quick_win
+DE-2,Detect,Not Implemented,1,High,Close gap for Detection use cases and validate evidence coverage,P1,L,Cross-team coordination,15.68,No
+GV-5,Govern,Not Implemented,1,High,Close gap for Third-party risk governance and validate evidence coverage,P1,L,Cross-team coordination,15.68,No
+DE-1,Detect,Partial,2,High,Close gap for Centralized logging and validate evidence coverage,P1,S,None,8.40,Yes
+DE-3,Detect,Partial,2,High,Close gap for Monitoring coverage for critical assets and validate evidence coverage,P1,L,Cross-team coordination,8.40,No
+ID-1,Identify,Partial,2,High,Close gap for Asset inventory completeness and validate evidence coverage,P1,S,None,8.40,Yes
+ID-4,Identify,Partial,2,High,Close gap for Vulnerability management process and validate evidence coverage,P1,S,None,8.40,Yes
+PR-1,Protect,Partial,2,High,Close gap for Identity and access management baseline and validate evidence coverage,P1,L,Cross-team coordination,8.40,No
+PR-2,Protect,Partial,2,High,Close gap for MFA coverage and validate evidence coverage,P1,S,None,8.40,Yes
+PR-3,Protect,Partial,2,High,Close gap for Endpoint hardening and EDR and validate evidence coverage,P1,S,None,8.40,Yes
+PR-4,Protect,Partial,2,High,Close gap for Patch and configuration management and validate evidence coverage,P1,L,Cross-team coordination,8.40,No
+PR-7,Protect,Partial,2,High,Close gap for Secure software and cloud configuration and validate evidence coverage,P1,L,Cross-team coordination,8.40,No
+RC-1,Recover,Partial,2,High,Close gap for Backup and restore testing and validate evidence coverage,P1,S,None,8.40,Yes
+RS-2,Respond,Partial,2,High,Close gap for Incident classification and playbooks and validate evidence coverage,P1,L,Cross-team coordination,8.40,No
+ID-5,Identify,Not Implemented,1,High,Close gap for Threat-informed risk assessment and validate evidence coverage,P2,M,Cross-team coordination,15.68,No
+RC-2,Recover,Not Implemented,1,High,Close gap for BCDR integration and validate evidence coverage,P2,M,Cross-team coordination,15.68,No
+RS-3,Respond,Not Implemented,1,High,Close gap for Internal and external communications and validate evidence coverage,P2,S,None,15.68,Yes
+GV-1,Govern,Partial,2,High,Close gap for Cybersecurity governance charter and validate evidence coverage,P2,M,Cross-team coordination,8.40,No
+GV-4,Govern,Partial,2,High,Close gap for Risk management process and validate evidence coverage,P2,M,Cross-team coordination,8.40,No
+ID-2,Identify,Partial,2,High,Close gap for Business criticality and data classification and validate evidence coverage,P2,S,None,8.40,Yes
+PR-5,Protect,Partial,2,High,Close gap for Data protection controls and validate evidence coverage,P2,M,Cross-team coordination,8.40,No
+RS-1,Respond,Partial,2,High,Close gap for Incident response plan and validate evidence coverage,P2,S,None,8.40,Yes
+DE-4,Detect,Partial,2,Med,Close gap for Alert triage workflow and validate evidence coverage,P2,S,None,6.30,Yes
+RS-4,Respond,Partial,2,Med,Close gap for Forensic readiness and validate evidence coverage,P2,M,Cross-team coordination,6.30,No
+DE-5,Detect,Not Implemented,0,Med,Close gap for Anomaly detection and baselining and validate evidence coverage,P3,M,Cross-team coordination,14.70,No
+RC-4,Recover,Not Implemented,1,Med,Close gap for Improvement tracking after disruption and validate evidence coverage,P3,S,None,11.76,Yes
+RS-5,Respond,Not Implemented,1,Med,Close gap for Lessons learned process and validate evidence coverage,P3,S,None,11.76,Yes
+GV-2,Govern,Partial,2,Med,Close gap for Policy framework lifecycle and validate evidence coverage,P3,S,None,6.30,Yes
+GV-3,Govern,Partial,2,Med,Close gap for Roles and responsibilities and validate evidence coverage,P3,S,None,6.30,Yes
+ID-3,Identify,Partial,2,Med,Close gap for Network and data flow visibility and validate evidence coverage,P3,S,None,6.30,Yes
+RC-3,Recover,Partial,2,Med,Close gap for Recovery communications and restoration priorities and validate evidence coverage,P3,S,None,6.30,Yes
+PR-6,Protect,Implemented,3,Med,Close gap for Security awareness program and validate evidence coverage,P4,S,None,1.68,Yes
