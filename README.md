@@ -92,7 +92,8 @@ remediation-roadmap.md
 
 1.  Clone the repository
 
-git clone `<your-repo-url>`{=html} cd nist-csf-assessment
+git clone `<your-repo-url>`
+cd into it
 
 2.  Create virtual environment
 
